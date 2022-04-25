@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Fira+Sans:wght@300&family=Inter:wght@300;400&family=Montserrat:wght@400;600&family=Poppins:ital,wght@0,200;0,300;1,200&family=Roboto+Serif&display=swap" rel="stylesheet">
+    <title>CALCULADORA</title>
+</head>
+<body>
+
+
+    <div     class="fundo"><br><br>
+        <h1>CALCULADORA</h1><br><br>
+        <button   onclick="clicar()" id="rosa" class="remo" >Rosa</button>
+        <button  onclick="clicarr()" id="Azul" >Azul</button>
+        <button   onclick="clicarrrrr()" id="roxo" class="remo" >Roxo</button>
+        <button   onclick="clicarrr()" id="vermelho" >Vermelho</button>
+        <button  onclick="clicarrrr()" id="preto" >Preto</button>
+        <div  id="calculadora">
+            
+            <p   id="resultado" ></p>
+            <table>
+                <tr>
+                    <td><button onclick="clean('')" class="botao btn" >C</button></td>
+                    <td><button  onclick="back('<')"  class="botao btn"><</button></td>
+                    <td><button onclick="insert('/')"  class="botao btn">/</button></td>
+                    <td><button onclick="insert('*')"   class="botao btn">X</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert('7')" class="botao">7</button></td>
+                    <td><button onclick="insert('8')" class="botao">8</button></td>
+                    <td><button  onclick="insert('9')" class="botao">9</button></td>
+                    <td><button onclick="insert('-')"   class="botao btn">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert('4')" class="botao">4</button></td>
+                    <td><button  onclick="insert('5')" class="botao">5</button></td>
+                    <td><button onclick="insert('6')" class="botao">6</button></td>
+                    <td><button onclick="insert('+')"  class="botao btn">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert('1')" class="botao">1</button></td>
+                    <td><button  onclick="insert('2')" class="botao">2</button></td>
+                    <td><button  onclick="insert('3')" class="botao">3</button></td>
+                    <td rowspan="2"    ><button  class="botao btn" style="height: 106px;" onclick="calcular()">=</button >
+                    </td>
+                </tr>
+                <tr>
+                    <td  colspan="2" ><button  onclick="insert('0')"  class="botao" style="width: 106px;"  class="botao">0</button></td>
+                    <td><button  onclick="insert('.')" class="botao">.</button></td>
+                   
+                </tr>
+            </table>
+        </div>
+
+
+    </div>
+   <script src="/CALCULADORA/calc.js" ></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.fundo{
+    background-color: #534988;
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+#calculadora{
+    position: absolute;
+   ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.botao{
+    width: 50px;
+    height:  50px;
+    font-size: 35px;
+    margin: 3px;
+    cursor: pointer;
+    background-color: #2a1c38;
+    color: white;
+    border: none;
+    justify-content: center;
+    border-radius: 3px ;
+}
+.botao:hover{
+    background-color:#0e3963
+   
+}
+
+#resultado{
+    background-color: white;
+    width: 207px;
+    height: 50px;
+    margin: 5px;
+    font-size: 30px;
+    color: black;
+    text-align: right;
+    padding: 8px;
+    word-wrap: break-word;
+    border-radius: 4px 
+}
+
+
+
+#rosa{
+    background-color: #ff00ff; 
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+#rosa:hover{
+    background-color: #d440bc;
+}
+
+#Azul{
+    background-color: #003cff; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+#Azul:hover{
+    background-color: #00a1fc;
+}
+
+
+#vermelho{
+    background-color: #ff0000; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#vermelho:hover{
+    background-color: #cf5660
+}
+
+#preto{
+    background-color: #000000; 
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#preto:hover{
+    background-color: #5a4d4d
+}
+
+
+#roxo{
+    background-color: #4B0082; 
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#roxo:hover{
+    background-color: #7404a8
+}
