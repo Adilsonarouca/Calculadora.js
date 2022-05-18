@@ -6,21 +6,38 @@
 
 .fundo{
     background-color: #534988;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    align-items: center;
     
 }
+h1{
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    justify-content: center;
+    padding: 25px;
+    font-weight: 900;
+}
+
 #calculadora{
-    position: absolute;
-   ;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    width: 0 auto;
     border-radius: 15px;
     padding: 10px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    top: 10%;
+}
+
+.botoes{
+display: flex;
+padding: 20px 10px;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 .botao{
